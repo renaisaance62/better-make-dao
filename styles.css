@@ -1,0 +1,17 @@
+body { font-family: Georgia, 'Times New Roman', serif; background: linear-gradient(to bottom, #F5F5DC 0%, #E8D9B9 100%); color: #8B4513; margin: 0; padding: 20px; line-height: 1.6; }
+.header { text-align: center; background: #D2B48C; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); margin-bottom: 30px; }
+.logo { width: 150px; height: auto; border-radius: 5px; box-shadow: 1px 1px 3px rgba(0,0,0,0.2); }
+h1 { color: #8B4513; font-size: 2.5em; margin: 0; }
+h2 { color: #A0522D; border-bottom: 2px solid #D2B48C; padding-bottom: 10px; font-size: 1.8em; }
+.section { background: #FFF8DC; border: 1px solid #D2B48C; border-radius: 10px; padding: 20px; margin: 20px 0; box-shadow: inset 0 1px 3px rgba(0,0,0,0.1); }
+.tab { background: #E8D9B9; padding: 15px; border-radius: 5px; margin: 10px 0; font-family: monospace; border-left: 4px solid #D2B48C; box-shadow: 1px 1px 3px rgba(0,0,0,0.1); }
+.tweet-img { max-width: 100%; height: auto; border: 2px solid #D2B48C; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.2); }
+.grid { display: grid; grid-template-columns: 1fr; gap: 15px; }
+@media (min-width: 768px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .grid { grid-template-columns: repeat(4, 1fr); } }
+.cta { background: #D2B48C; color: #8B4513; padding: 15px 30px; border: none; border-radius: 5px; font-size: 1.2em; cursor: pointer; display: block; margin: 20px auto; text-align: center; box-shadow: 2px 2px 4px rgba(0,0,0,0.2); text-decoration: none; transition: all 0.3s; }
+.cta:hover { background: #A0522D; color: #FFF; transform: translateY(-2px); box-shadow: 3px 3px 6px rgba(0,0,0,0.3); }
+footer { text-align: center; background: #D2B48C; padding: 15px; border-radius: 10px; margin-top: 40px; font-size: 0.9em; box-shadow: 0 -2px 5px rgba(0,0,0,0.1); }
+ul { list-style-type: disc; padding-left: 20px; }
+li { margin: 8px 0; }
+@media (max-width: 768px) { body { padding: 10px; } h1 { font-size: 2em; } .section { padding: 15px; } .cta { padding: 10px 20px; font-size: 1em; } }
